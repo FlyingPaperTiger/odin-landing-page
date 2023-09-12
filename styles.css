@@ -19,10 +19,12 @@ a {
 }
 
 .container,
-.narrow-container {
+.narrow-container,
+.footer {
     margin: 0 auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     max-width: 1200px;
 }
 
@@ -41,7 +43,4 @@ a {
 
 .header {
     padding: 24px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
