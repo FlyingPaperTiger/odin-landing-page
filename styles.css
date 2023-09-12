@@ -7,6 +7,12 @@ body {
     font-family: Roboto, serif;
 }
 
+nav,
+section,
+footer {
+    padding: 32px;
+}
+
 a {
     text-decoration: none;
     color: #f9faf8;
@@ -20,13 +26,17 @@ a {
 }
 
 .container,
-.narrow-container,
-.footer {
+.narrow-container {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 1200px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
 }
 
 .header,
@@ -42,10 +52,3 @@ a {
     color: #f9faf8;
 }
 
-.header,
-.hero,
-.info,
-.testimonial,
-.cta {
-    padding: 24px;
-}
