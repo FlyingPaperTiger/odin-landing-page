@@ -19,6 +19,23 @@ a {
     margin-left: 16px;
 }
 
+button {
+    padding: 8px 32px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+button:hover {
+    background-color: #3881f6bd;
+    cursor: pointer;
+}
+
+.sign-up-cta {
+    border: 2px solid #f9faf8;
+}
+
 .main-container {
     display: flex;
     flex-direction: column;
