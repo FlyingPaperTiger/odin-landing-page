@@ -37,13 +37,25 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 48px;
+    padding: 0 80px;
 }
 
 .stamps {
     display: flex;
     justify-content: space-between;
     gap: 16px;
+}
+
+.stamp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* this must be changed with flex grow shrink...*/
+.stamp,
+.rounded-blue {
+    width: 200px;
 }
 
 .footer-container {
