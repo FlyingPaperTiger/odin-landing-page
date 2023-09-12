@@ -78,6 +78,24 @@ a {
     color: #f9faf8;
 }
 
+.testimonial {
+    background-color: #e5e7eb;
+    padding: 96px 0 64px 0;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.customer {
+    margin-top: 24px;
+    align-self: flex-end;
+    font-weight: 700;
+    font-size: 18px;
+}
+
 .hero-image {
     width: 200px;
     height: 100px;
