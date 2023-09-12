@@ -24,3 +24,11 @@ a {
     font-weight: 600;
     color: #f9faf8;
 }
+
+.header {
+    max-width: 900px;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
