@@ -6,3 +6,10 @@
 body {
     font-family: Roboto, serif;
 }
+
+.header,
+.hero,
+.footer {
+    background-color: #1f2937;
+    color: #ebebeb;
+}
