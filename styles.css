@@ -41,6 +41,8 @@ a {
 }
 
 .stamps {
+    margin-top: 48px;
+    margin-bottom: 64px;
     display: flex;
     justify-content: space-between;
     gap: 16px;
