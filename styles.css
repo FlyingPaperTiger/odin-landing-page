@@ -77,6 +77,13 @@ button:hover {
     width: 200px;
 }
 
+.cta .container {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 48px 64px;
+    border-radius: 8px;
+} 
+
 .footer-container {
     display: flex;
     justify-content: center;
