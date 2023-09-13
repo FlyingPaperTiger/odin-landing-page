@@ -106,6 +106,36 @@ p {
     max-width: 1120px;
 }
 
+.header,
+.hero,
+.footer {
+    background-color: var(--primary-dark);
+    color: var(--primary-light);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--primary-white-text);
+}
+
+.hero {
+    padding-bottom: 120px;
+}
+
+.hero .flex-row {
+    gap: 160px;
+}
+
+.hero-image {
+    background-color: var(--primary-light);
+    color: var(--primary-dark);
+    flex-basis: 50%;
+    align-self: stretch;
+    min-height: 240px;
+    text-align: center;
+}
+
 .info {
     text-align: center;
 }
@@ -142,29 +172,6 @@ p {
     border-radius: 8px;
     padding: 24px 120px;
 } 
-
-.header,
-.hero,
-.footer {
-    background-color: var(--primary-dark);
-    color: var(--primary-light);
-}
-
-.logo {
-    font-size: 24px;
-    font-weight: 600;
-    color: var(--primary-white-text);
-}
-
-.hero-image {
-    margin-left: 48px;
-    background-color: var(--primary-light);
-    color: var(--primary-dark);
-    flex-basis: 600px;
-    align-self: stretch;
-    min-height: 200px;
-    text-align: center;
-}
 
 .testimonial {
     background-color: var(--secondary-light-text);
