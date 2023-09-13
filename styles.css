@@ -123,14 +123,18 @@ p {
     padding-bottom: 120px;
 }
 
-.hero .flex-row {
-    gap: 160px;
+/*this bothers me that .awesome and .hero-image as flex items dont split evenly*/
+
+.awesome {
+    padding-right: 64px;
+    flex-shrink: 1;
 }
 
 .hero-image {
     background-color: var(--primary-light);
     color: var(--primary-dark);
-    flex-basis: 50%;
+    flex-basis: 100%; 
+    flex-shrink: 1;
     align-self: stretch;
     min-height: 240px;
     text-align: center;
