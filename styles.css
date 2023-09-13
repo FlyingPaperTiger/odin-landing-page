@@ -40,9 +40,15 @@ button:hover {
     display: flex;
     flex-direction: column;
     align-items: stretch;
+    
 }
 
-.container {
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-row {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -50,44 +56,37 @@ button:hover {
     max-width: 1200px;
 }
 
-.narrow-container {
+.flex-column {
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 80px;
 }
 
-.stamps {
-    margin-top: 48px;
-    margin-bottom: 64px;
-    display: flex;
-    justify-content: space-between;
-    gap: 16px;
+.narrow {
+    padding: 0 120px;
+    max-width: 1040px;
 }
 
 .stamp {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
-/* this must be changed with flex grow shrink...*/
-.stamp,
 .rounded-blue {
+    height: 200px;
     width: 200px;
 }
 
-.cta .container {
+.cta .flex-row {
     background-color: #3882f6;
     color: #f9faf8;
-    padding: 48px 64px;
     border-radius: 8px;
+    padding: 48px 120px;
 } 
 
-.footer-container {
-    display: flex;
-    justify-content: center;
-}
 
 .header,
 .hero,
@@ -104,7 +103,8 @@ button:hover {
 
 .testimonial {
     background-color: #e5e7eb;
-    padding: 96px 0 64px 0;
+    padding-top: 96px;
+    padding-bottom: 64px;
 }
 
 .quote {
@@ -121,8 +121,11 @@ button:hover {
 }
 
 .hero-image {
-    width: 200px;
-    height: 100px;
+    background-color: #ebebeb;
+    color: #1f2937;
+    width: 400px;
+    height: 200px;
+    text-align: center;
 }
 
 .rounded-blue {
