@@ -5,8 +5,9 @@
     --primary-light: #ebebeb;
     --primary-color: #3882f6;
     --primary-color-hover: #1966e2;
-    --max-width: 1280px;
+    /*--max-width: 1280px;
     --max-width-narrow: 1120px;
+    this above needs to be implemented*/
 }
 
 * {
