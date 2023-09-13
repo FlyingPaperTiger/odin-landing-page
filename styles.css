@@ -108,7 +108,7 @@ p {
     justify-content: center;
     align-items: stretch;
     flex-wrap: wrap;
-    gap: 32px;
+    gap: 64px;
 }
 
 .stamp {
@@ -116,12 +116,15 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-width: 240px;
+    min-width: 220px;
 }
 
 .rounded-blue {
+    background-color: var(--primary-white-text);
+    border: var(--primary-color) solid 4px;
+    border-radius: 16px;
     width: 100%;
-    flex-basis: 240px; /*<- this is the height*/
+    flex-basis: 220px; /*<- this is the height*/
 }
 
 .cta .flex-row {
@@ -170,10 +173,4 @@ p {
     align-self: flex-end;
     font-weight: 700;
     font-size: 18px;
-}
-
-.rounded-blue {
-    background-color: var(--primary-white-text);
-    border: var(--primary-color) solid 4px;
-    border-radius: 8px;
 }
