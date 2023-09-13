@@ -4,6 +4,7 @@
     --primary-dark: #1f2937;
     --primary-light: #ebebeb;
     --primary-color: #3882f6;
+    --primary-color-hover: #1966e2;
 }
 
 * {
@@ -37,7 +38,8 @@ button {
 }
 
 button:hover {
-    background-color: var(--primary-color);
+    background-color: var(--primary-color-hover);
+    color: var(--secondary-light-text);
     cursor: pointer;
 }
 
@@ -114,7 +116,6 @@ p {
     padding: 48px 120px;
 } 
 
-
 .header,
 .hero,
 .footer {
@@ -126,6 +127,15 @@ p {
     font-size: 24px;
     font-weight: 600;
     color: var(--primary-white-text);
+}
+
+.hero-image {
+    margin-left: 48px;
+    background-color: var(--primary-light);
+    color: var(--primary-dark);
+    flex-basis: 600px;
+    height: 200px;
+    text-align: center;
 }
 
 .testimonial {
@@ -145,14 +155,6 @@ p {
     align-self: flex-end;
     font-weight: 700;
     font-size: 18px;
-}
-
-.hero-image {
-    background-color: var(--primary-light);
-    color: var(--primary-dark);
-    width: 400px;
-    height: 200px;
-    text-align: center;
 }
 
 .rounded-blue {
