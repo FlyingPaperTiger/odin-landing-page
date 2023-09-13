@@ -36,7 +36,7 @@ button {
     color: var(--primary-white-text);
     border-radius: 8px;
     font-weight: 700;
-    border: 2px hidden var(--primary-white-text);
+    border: 2px none var(--primary-white-text);
 }
 
 button:hover {
@@ -67,7 +67,7 @@ h3 {
 p {
     font-size: 18px;
     padding-bottom: 1rem;
-    padding-top: 0.5em;
+    padding-top: 0.5rem;
 }
 
 .sign-up-cta {
