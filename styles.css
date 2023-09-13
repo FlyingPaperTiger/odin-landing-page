@@ -59,9 +59,15 @@ h2 {
     color: var(--primary-dark);
 }
 
+h3 {
+    font-size: 24px;
+    font-weight: 800;
+}
+
 p {
+    font-size: 18px;
     padding-bottom: 1rem;
-    padding-top: 1rem;
+    padding-top: 0.5em;
 }
 
 .sign-up-cta {
@@ -126,12 +132,15 @@ p {
     width: 100%;
     flex-basis: 220px; /*<- this is the height*/
 }
+.cta {
+    margin: 48px 0;
+}
 
 .cta .flex-row {
     background-color: var(--primary-color);
     color: var(--primary-white-text);
     border-radius: 8px;
-    padding: 48px 120px;
+    padding: 24px 120px;
 } 
 
 .header,
