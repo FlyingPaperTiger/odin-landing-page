@@ -33,6 +33,7 @@ button {
     color: var(--primary-white-text);
     border-radius: 8px;
     font-weight: 700;
+    border: 2px hidden var(--primary-white-text);
 }
 
 button:hover {
@@ -41,15 +42,21 @@ button:hover {
 }
 
 h1 {
+    padding: 8px 0;
     font-size: 48px;
     font-weight: 800;
     color: var(--primary-white-text);
 }
 
 h2 {
+    padding: 32px 0;
     font-size: 36px;
     font-weight: 800;
     color: var(--primary-dark);
+}
+
+p {
+    padding-bottom: 16px;
 }
 
 .sign-up-cta {
