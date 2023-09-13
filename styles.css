@@ -1,3 +1,11 @@
+:root {
+    --primary-white-text: #f9faf8;
+    --secondary-light-text: #e5e7eb;
+    --primary-dark: #1f2937;
+    --primary-light: #ebebeb;
+    --primary-color: #3882f6;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -15,25 +23,37 @@ footer {
 
 a {
     text-decoration: none;
-    color: #f9faf8;
+    color: var(--primary-white-text);
     margin-left: 16px;
 }
 
 button {
     padding: 8px 32px;
-    background-color: #3882f6;
-    color: #f9faf8;
+    background-color: var(--primary-color);
+    color: var(--primary-white-text);
     border-radius: 8px;
     font-weight: 700;
 }
 
 button:hover {
-    background-color: #3881f6bd;
+    background-color: var(--primary-color);
     cursor: pointer;
 }
 
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: var(--primary-white-text);
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: var(--primary-dark);
+}
+
 .sign-up-cta {
-    border: 2px solid #f9faf8;
+    border: 2px solid var(--primary-white-text);
 }
 
 .main-container {
@@ -81,8 +101,8 @@ button:hover {
 }
 
 .cta .flex-row {
-    background-color: #3882f6;
-    color: #f9faf8;
+    background-color: var(--primary-color);
+    color: var(--primary-white-text);
     border-radius: 8px;
     padding: 48px 120px;
 } 
@@ -91,18 +111,18 @@ button:hover {
 .header,
 .hero,
 .footer {
-    background-color: #1f2937;
-    color: #ebebeb;
+    background-color: var(--primary-dark);
+    color: var(--primary-light);
 }
 
 .logo {
     font-size: 24px;
     font-weight: 600;
-    color: #f9faf8;
+    color: var(--primary-white-text);
 }
 
 .testimonial {
-    background-color: #e5e7eb;
+    background-color: var(--secondary-light-text);
     padding-top: 96px;
     padding-bottom: 64px;
 }
@@ -121,15 +141,15 @@ button:hover {
 }
 
 .hero-image {
-    background-color: #ebebeb;
-    color: #1f2937;
+    background-color: var(--primary-light);
+    color: var(--primary-dark);
     width: 400px;
     height: 200px;
     text-align: center;
 }
 
 .rounded-blue {
-    background-color: #f9faf8;
-    border: #3882f6 solid 4px;
+    background-color: var(--primary-white-text);
+    border: var(--primary-color) solid 4px;
     border-radius: 8px;
 }
